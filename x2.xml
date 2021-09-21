@@ -1,0 +1,18 @@
+XMLexample_stored_in_a_string ='''<?xml version ="1.0"?>
+<States>
+    <state name ="TELANGANA">
+        <rank>1</rank>
+        <neighbor name ="ANDHRA" language ="Telugu"/>
+        <neighbor name ="KARNATAKA" language ="Kannada"/>
+    </state>
+    <state name ="GUJARAT">
+        <rank>2</rank>
+        <neighbor name ="RAJASTHAN" direction ="N"/>
+        <neighbor name ="MADHYA PRADESH" direction ="E"/>
+    </state>
+    <state name ="KERALA">
+        <rank>3</rank>
+        <neighbor name ="TAMILNADU" direction ="S" language ="Tamil"/>
+    </state>
+</States>
+'''
